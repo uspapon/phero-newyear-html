@@ -74,7 +74,7 @@ h2, h3, h4, ul, p {
     
 }
 
-.siteBannerContent input {
+.siteBannerContent input, .sharingPlanInputSec input[type="submit"] {
     border: 0;
     padding: 20px 25px;
     background-color: #F15B22;
@@ -94,7 +94,8 @@ h2, h3, h4, ul, p {
     color: #444343;
 }
 
-.lastYearInsightArea .insightDescSection h3, .newYearPlanArea h3, .quickContactSection h4 {
+.lastYearInsightArea .insightDescSection h3, .newYearPlanArea h3, .quickContactSection h4,
+#shareYourPlanArea h3 {
     font-size: 40px;
     font-weight: bold;
 }
@@ -153,7 +154,39 @@ h2, h3, h4, ul, p {
 }
 
 /* -------------------------------------------
-            CSS for Banner
+            CSS for shareYourPlanArea
+-----------------------------------------------*/
+#shareYourPlanArea { margin-bottom: 70px;}
+#shareYourPlanArea h3 {
+    color: #444343;
+    text-align: center;
+    margin: 90px 0 30px 0;
+    text-align: center;
+}
+
+#shareYourPlanArea p {
+    line-height: 26px;
+    margin-bottom: 40px;
+    padding: 30px;
+    /* text-align: center; */
+}
+
+.sharingPlanInputSec {
+    width: 800px;
+    margin: 0 auto;
+}
+.sharingPlanInputSec input[type="email"], .sharingPlanInputSec input[type="text"], textarea {
+    border: 0;
+    padding: 20px 35px;
+    width: 100%;
+    background-color: #FFF4D6;
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -------------------------------------------
+            CSS for quickContactArea
 -----------------------------------------------*/
 .quickContactArea {
     margin: 70px 0 120px 0;
