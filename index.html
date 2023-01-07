@@ -11,9 +11,11 @@
     <div class="siteWrapper">
         <section class="siteBannerArea">
             <div class="siteInnerWrapper">
-                <h2>All Things Are Possible If You believe </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laboriosam molestiae doloremque quaerat sequi neque nulla vitae, maiores modi eveniet.</p>
-                <input type="button" class="siteBtn" value="Contact Us">
+                <div class="siteBannerContent">
+                    <h2>All Things Are Possible If You believe </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laboriosam molestiae doloremque quaerat sequi neque nulla vitae, maiores modi eveniet.</p>
+                    <input type="button" class="siteBtn" value="Contact Us">                      
+                </div>
             </div>
         </section> 
         <!-- end of siteBannerArea  -->
@@ -21,7 +23,7 @@
         <div class="siteInnerWrapper">
             <section class="lastYearInsightArea">
                 <div class="insightImgSection">
-                    <img src="#" alt="Lessons From Last Year">
+                    <img src="images/person.png" alt="Lessons From Last Year">
                 </div>
                 <div class="insightDescSection">
                     <h3>My failures of previous year</h3>
@@ -38,32 +40,39 @@
             <!-- end of lastYearInsightArea -->
 
             <section class="newYearPlanArea">
-                <div class="nYPlanItem">
-                    <img src="images/icons/web.png" alt="Web Development">
-                    <h4>Web Development</h4>
-                    <p>I want to start</p>
-                </div>
-                <div class="nYPlanItem">
-                    <img src="images/icons/js.png" alt="JavaScript">
-                    <h4>JavaScript</h4>
-                    <p>I want to start</p>
-                </div>
-                <div class="nYPlanItem">
-                    <img src="images/icons/react.png" alt="React Js">
-                    <h4>React JS</h4>
-                    <p>I want to start</p>
-                </div>
-                <div class="nYPlanItem">
-                    <img src="images/icons/ecom.png" alt="Ecommerce">
-                    <h4>Ecommerce</h4>
-                    <p>I want to start</p>
-                </div>
+                <h3>My Plan</h3>
+                <div class="nYPlanContainer">
+                    <div class="nYPlanItem">
+                        <img src="images/icons/web.png" alt="Web Development">
+                        <h4>Web Development</h4>
+                        <p>I want to start</p>
+                    </div>
+                    <div class="nYPlanItem">
+                        <img src="images/icons/js.png" alt="JavaScript">
+                        <h4>JavaScript</h4>
+                        <p>I want to start</p>
+                    </div>
+                    <div class="nYPlanItem">
+                        <img src="images/icons/react.png" alt="React Js">
+                        <h4>React JS</h4>
+                        <p>I want to start</p>
+                    </div>
+                    <div class="nYPlanItem">
+                        <img src="images/icons/ecom.png" alt="Ecommerce">
+                        <h4>Ecommerce</h4>
+                        <p>I want to start</p>
+                    </div>
+    
+                </div> 
+                <!-- end of nYPlanContainer -->
             </section>
             <!-- end of newYearPlanArea -->
             
             <section class="quickContactArea">
-                <h4>Always keep a positive mindset</h4>
-                <input type="button" id="callNowBtn" value="Call Now">
+                <div class="quickContactSection">
+                    <h4>Always keep a positive mindset</h4>
+                    <input type="button" class="whiteBtn" id="callNowBtn" value="Call Now">
+                </div>
 
             </section>
             <!-- end of quickContactArea -->
@@ -75,13 +84,17 @@
                 <div class="contactSection">
                     <h3>Future</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab optio maiores sapiente, dolorem alias nihil accusamus. Repellendus similique necessitatibus commodi dolorem!</p>
-                    <ul>
-                        <li>Email: info@gmail.com</li>
-                        <li>Phone: 01500 00 00 00</li>
-                        <li><img src="images/icons/fb.png" alt="Facebook"></li>
-                        <li><img src="images/icons/twitter.png" alt="Twitter"></li>
-                        <li><img src="images/icons/youtube.png" alt="Youtube"></li>
-                    </ul>
+
+                    <div class="contactInfo">
+                        <p>Email: info@gmail.com</p>
+                        <p>Phone: 01500 00 00 00</p>
+                        <ul>
+                            <li><img src="images/icons/fb.png" alt="Facebook"></li>
+                            <li><img src="images/icons/twitter.png" alt="Twitter"></li>
+                            <li><img src="images/icons/youtube.png" alt="Youtube"></li>
+                        </ul>                 
+                    </div>
+
                 </div>
                 <!-- end of contactSection -->
                 <div class="subscriptionSection">
@@ -90,7 +103,7 @@
                         <input type="email" name="emailAddress" id="emailAddress" placeholder="Enter your email">
                     </div>
                     <div class="subscriptionBtnContainer">
-                        <input type="button" value="Subscribe">
+                        <input type="button" class="whiteBtn" value="Subscribe">
                     </div>                   
                 </div>
                 <!-- end of subscriptionSection -->

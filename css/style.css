@@ -4,3 +4,257 @@
     Date: January 7, 2023
     Version: 0.1
 ---------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/* -------------------------------------------
+            CSS for elements
+-----------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2, h3, h4, ul, p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* -------------------------------------------
+            Common CSS
+-----------------------------------------------*/
+.siteInnerWrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.whiteBtn {
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* -------------------------------------------
+            CSS for siteBannerArea
+-----------------------------------------------*/
+.siteBannerArea{
+    background: url("../images/banner/banner1.png") bottom left no-repeat;
+    transform: scaleX(-1);
+    min-height: 800px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    
+}
+
+.siteBannerArea .siteBannerContent {
+    width: 525px;
+    margin-left: 570px;
+    transform: scaleX(-1);
+
+}
+
+.siteBannerContent h2 {
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.siteBannerContent p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+    
+}
+
+.siteBannerContent input {
+    border: 0;
+    padding: 20px 25px;
+    background-color: #F15B22;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* -------------------------------------------
+            CSS for lastYearInsightArea
+-----------------------------------------------*/
+.lastYearInsightArea {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 70px 0;
+    color: #444343;
+}
+
+.lastYearInsightArea .insightDescSection h3, .newYearPlanArea h3, .quickContactSection h4 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.lastYearInsightArea .insightDescSection h3{
+    margin-bottom: 24px;
+}
+
+.lastYearInsightArea .insightDescSection p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.lastYearInsightArea .insightDescSection ul {
+    list-style: none;
+}
+
+.lastYearInsightArea .insightDescSection ul li {
+    line-height: 30px;
+    padding-left: 40px;
+    background-image: url("../images/icons/check-mark.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+
+/* -------------------------------------------
+            CSS for newYearPlanArea
+-----------------------------------------------*/
+.newYearPlanArea {
+    margin-bottom: 50px;
+}
+.newYearPlanArea h3 {
+    text-align: center;
+    margin: 60px 0 40px 0;
+    color: #444343;
+}
+.nYPlanContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.nYPlanContainer .nYPlanItem {
+    text-align: center;
+}
+
+.nYPlanContainer .nYPlanItem h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #444343;
+}
+.nYPlanContainer p {
+    color: #737272;
+}
+
+/* -------------------------------------------
+            CSS for Banner
+-----------------------------------------------*/
+.quickContactArea {
+    margin: 70px 0 120px 0;
+    min-height: 300px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color: #fff;
+    
+}
+
+.quickContactArea .quickContactSection  {
+    width: 460px;
+    padding: 60px 0 0 65px;
+}
+.quickContactArea .quickContactSection h4 {
+    margin-bottom: 30px;
+
+}
+
+.quickContactArea .quickContactSection input.whiteBtn {
+    padding: 15px 35px;
+}
+
+
+/* -------------------------------------------
+            CSS for siteFooterArea
+-----------------------------------------------*/
+.siteFooterArea{
+    background-color: #151414;
+
+}
+.siteFooterArea .siteInnerWrapper {
+   
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.siteFooterArea .contactSection{
+    width: 485px;
+}
+
+.siteFooterArea .subscriptionSection{
+    width: 230px;
+}
+
+.contactSection h3{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F8F8F8;
+
+}
+
+.contactSection p{
+    line-height: 25px;
+
+}
+
+.contactSection .contactInfo {
+    margin-top: 10px;
+}
+
+.contactSection .contactInfo p{
+    line-height: 35px;
+}
+
+.contactSection .contactInfo ul {
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    gap: 17px;
+}
+
+
+.subscriptionSection h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.subscriptionSection input[type="email"] {
+    border: 1px solid #F8F8F8;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    background-color: #151414;
+    color: #fff;
+    
+
+}
+
+.subscriptionSection input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    
+}
+
+
